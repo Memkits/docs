@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Docs Searching</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="./bower_components/requirejs/require.js"></script>
+  <script type="text/javascript">
+    require.config({
+      paths: {
+        Ractive: "bower_components/ractive/Ractive",
+        text: "bower_components/requirejs-text/text"
+      }
+    })
+    require(["src/main"])
+  </script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>

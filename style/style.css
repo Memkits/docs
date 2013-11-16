@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    font-family: Optima;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#query {
+    line-height: 20px;
+    font-size: 19px;
+    pointer-events: none;
+    border: none;
+    outline: none;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 300px;
+    opacity: 0;
+    transition-duration: 200ms;
+    font-family: Optima;
+}
+
+#query:focus {
+    opacity: 1;
+}
+
+#app {
+    margin-bottom: 300px;
+    margin-top: 200px;
+}
+
+#results .item:visible:first-child {
+    border-left: 20px solid rgb(180, 170, 201);
+}
+
+.item {
+    font-size: 20px;
+    display: -webkit-flex;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+    border-left: 0px solid white;
+    box-shadow: 0 1px 0px 0px rgb(240, 240, 240);
+    transition-duration: 200ms;
+    height: 0;
+    overflow: hidden;
+    line-height: 50px;
+    padding: 0px 40px;
+}
+.item.show {
+    height: 50px;
+}
+
+.name {
+    display: inline-block;
+    width: 40%;
+}
+
+.link {
+    display: inline-block;
+    width: 60%;
+    color: rgb(161, 161, 255);
+}
+
+.link a {
+    text-decoration: none;
+}
+.link a:link {
+    color: rgb(161, 161, 255);
+}
+.link a:visited {
+    color: rgb(117, 164, 185);
+}
+
+#hint {
+    padding: 20px 50px;
+    color: rgb(189, 189, 189);
+}

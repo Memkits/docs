@@ -1,0 +1,13 @@
+
+<input id="query" placeholder="Type to Search..." autofocus value="{{keyword}}" />
+<div id="results">
+  {{#results : num}}
+    <div class="item {{classShow(show)}} {{showCursor(num, cursor)}}">
+      <div class="name"> {{name}} </div>
+      <div class="link">
+        <a href=" {{link}} " target="_blank"> {{link}} </a>
+      </div>
+    </div>
+  {{/results}}
+</div>
+<div id="hint"> {{count}} Results</div>
