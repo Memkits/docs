@@ -13,14 +13,6 @@
     }
   };
 
-  document.onfocus = function() {
-    var query;
-    alert("xx");
-    query = document.querySelector('#query');
-    query.value = "";
-    return query.focus();
-  };
-
   document.onkeydown = function(event) {
     var elem;
     switch (false) {

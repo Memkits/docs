@@ -54,3 +54,21 @@ list =
   nodejsAPI:
     name: "Node.js Manual & Documentation"
     link: "http://nodejs.org/docs/latest/api/"
+  gruntDoc:
+    name: "Grunt Getting started"
+    link: "http://gruntjs.com/getting-started"
+  chromeShortcuts:
+    name: "Chrome Mac OSX keyboard shortcuts"
+    link: "https://support.google.com/chrome/answer/165450?hl=en&ref_topic=25799"
+  sublimeMacShortcuts:
+    name: "Sublime Text Keyboard Shortcuts Max OSX"
+    link: "http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html"
+  caniuse:
+    name: "Can I Use"
+    link: "http://caniuse.com/"
+  backbone:
+    name: "Backbone"
+    link: "http://backbonejs.org/"
+  lodash:
+    name: "LoDash"
+    link: "http://lodash.com/docs"

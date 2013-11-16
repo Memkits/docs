@@ -9,12 +9,6 @@ document.onkeypress = (event) ->
     query.value = ""
     event.preventDefault()
 
-document.onfocus = ->
-  alert "xx"
-  query = document.querySelector('#query')
-  query.value = ""
-  query.focus()
-
 document.onkeydown = (event) ->
   switch
     when event.keyCode is 13
