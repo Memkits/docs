@@ -3,9 +3,9 @@ define (require, exports) ->
   exports.list = list
 
 list =
-  express:
-    name: "Expressjs.org"
-    link: "http://expressjs.com/"
+  expressApi:
+    name: "Expressjs API Reference"
+    link: "http://expressjs.com/api.html"
   coffeescript:
     name: "CoffeeScript.org"
     link: "http://coffeescript.org"
@@ -72,3 +72,39 @@ list =
   lodash:
     name: "LoDash"
     link: "http://lodash.com/docs"
+  codrops:
+    name: "Tympanus Codrops for creative minds"
+    link: "http://tympanus.net/codrops/"
+  jsdb:
+    name: "JSDB.IO Database of JavaScript Libraries"
+    link: "http://www.jsdb.io/"
+  jster:
+    name: "JSter, catalog of JavaScript libraries"
+    link: "http://jster.net/"
+  mongoLite:
+    name: "mongo-lite.js"
+    link: "http://alexeypetrushin.github.io/mongo-lite/docs/index.html"
+  mongodbCRUD:
+    name: "MongoDB CRUD Tutorials"
+    link: "http://docs.mongodb.org/manual/applications/crud/"
+  jqueryPlugins:
+    name: "The jQuery Plugin Registry"
+    link: "http://plugins.jquery.com/"
+  tutorialsPoint:
+    name: "Tutorials Point - Simply Easy Learning"
+    link: "http://www.tutorialspoint.com/index.htm"
+  jqueryApi:
+    name: "jQuery API"
+    link: "http://api.jquery.com/"
+  wikiHow:
+    name: "Wiki How"
+    link: "http://www.wikihow.com/Main-Page"
+  nettuts:
+    name: "Nettuts+"
+    link: "http://net.tutsplus.com/"
+  coursera:
+    name: "Coursera"
+    link: "https://www.coursera.org/"
+  goDoc:
+    name: "GoDoc"
+    link: "http://godoc.org/"
