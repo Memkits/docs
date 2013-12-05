@@ -108,3 +108,12 @@ list =
   goDoc:
     name: "GoDoc"
     link: "http://godoc.org/"
+  osxFonts:
+    name: "OS X: Fonts included with Mavericks"
+    link: "http://support.apple.com/kb/HT5944"
+  wikiBooks:
+    name: "WikiBooks Subject:Computer programming"
+    link: "http://en.wikibooks.org/wiki/Subject:Computer_programming"
+  staticfile:
+    name: 'QiNiu staticfile CDN'
+    link: 'http://www.staticfile.org/'
