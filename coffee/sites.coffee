@@ -117,3 +117,12 @@ list =
   staticfile:
     name: 'QiNiu staticfile CDN'
     link: 'http://www.staticfile.org/'
+  templates:
+    name: 'Template Engine Chooser'
+    link: 'http://garann.github.io/template-chooser/'
+  ping:
+    name: 'Ping a server'
+    link: 'http://cloudmonitor.ca.com/en/ping.php'
+  rfc:
+    name: 'RFC2616 中文翻译'
+    link: 'https://code.google.com/p/stxm/source/browse/branches/http/RFC2616中文翻译.txt'
