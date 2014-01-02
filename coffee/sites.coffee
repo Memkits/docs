@@ -126,3 +126,12 @@ list =
   rfc:
     name: 'RFC2616 中文翻译'
     link: 'https://code.google.com/p/stxm/source/browse/branches/http/RFC2616中文翻译.txt'
+  diff:
+    name: 'Diff Checker'
+    link: 'http://www.diffchecker.com/'
+  mdn:
+    name: 'Mozilla Developer Network'
+    link: 'https://developer.mozilla.org/en-US/'
+  html5rocks:
+    name: 'HTML5 Rocks'
+    link: 'http://www.html5rocks.com/'
