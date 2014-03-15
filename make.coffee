@@ -15,7 +15,7 @@ target.html = ->
 
 target.coffee = (type, name) ->
   exec "coffee -o js/ -bc coffee/#{name}", ->
-    exec 'browserify -o build/build.js js/main.js', ->
+    exec 'browserify -o build/build.js -d js/main.js', ->
       console.log 'ok browserify'
       station.reload 'repo/docs'
 

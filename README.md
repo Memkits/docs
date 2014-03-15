@@ -13,13 +13,19 @@ Visit http://jiyinyiyong.github.io/docs/
 ### Join
 
 * folk this project and add in `coffee/sites.coffe`
-* `bower install` and `local.html` is for debugging
-* run `coffee -o src/ -cm coffee/` to compile code
+
+```bash
+npm install
+npm install -g browserify coffee-script
+coffee -o js/ -c coffee/
+browserify -o build/build.js -d js/main.js
+```
+
 * send PR
 
 ### Thanks to
 
-Ractive, RequireJS, OverAPI
+Vuejs, OverAPI
 
 ### Licence
 

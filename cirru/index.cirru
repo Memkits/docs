@@ -13,5 +13,9 @@ html
     script
       :defer
       :src build/build.js
+    link
+      :rel icon
+      :type image/x-icon
+      :href png/docs.png
 
   @partial list.cirru

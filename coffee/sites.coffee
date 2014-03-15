@@ -1,10 +1,19 @@
 
 exports.sites = [
+  name: 'Vuejs'
+  link: 'http://vuejs.org/'
+,
+  name: 'Learn Ruby The Hard Way'
+  link: 'http://ruby.learncodethehardway.org/book/'
+,
   name: "Expressjs API Reference"
   link: "http://expressjs.com/api.html"
 ,
   name: "CoffeeScript.org"
   link: "http://coffeescript.org"
+,
+  name: 'Gruntjs Chinese'
+  link: 'http://www.gruntjs.org/docs/getting-started.html'
 ,
   name: "CoffeeScript Chinese"
   link: "http://coffee-script.org"
@@ -131,4 +140,7 @@ exports.sites = [
 ,
   name: 'HTML5 Rocks'
   link: 'http://www.html5rocks.com/'
+,
+  name: 'CSS Beautify'
+  link: 'http://cssbeautify.com/'
 ]
