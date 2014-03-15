@@ -1,6 +1,4 @@
 
-define ->
-
 document.onkeypress = (event) ->
   query = document.querySelector('#query')
   char = String.fromCharCode event.charCode

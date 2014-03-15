@@ -37,16 +37,15 @@ body {
 
 .item {
     font-size: 20px;
-    display: -webkit-flex;
+    display: flex;
     transition-duration: 200ms;
     transition-delay: 50ms;
     border-left: 0px solid white;
     box-shadow: 0 1px 0px 0px rgb(240, 240, 240);
-    transition-duration: 200ms;
-    height: 0;
     overflow: hidden;
     line-height: 50px;
     padding: 0px 40px;
+    height: 0px;
 }
 .item.show {
     height: 50px;
@@ -63,13 +62,13 @@ body {
     color: rgb(161, 161, 255);
 }
 
-.link a {
+.link {
     text-decoration: none;
 }
-.link a:link {
+.link:link {
     color: rgb(161, 161, 255);
 }
-.link a:visited {
+.link:visited {
     color: rgb(117, 164, 185);
 }
 
