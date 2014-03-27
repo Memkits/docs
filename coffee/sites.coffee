@@ -13,7 +13,7 @@ exports.sites = [
   link: "http://coffeescript.org"
 ,
   name: 'Gruntjs Chinese'
-  link: 'http://www.gruntjs.org/docs/getting-started.html'
+  link: 'http://www.gruntjs.org/'
 ,
   name: "CoffeeScript Chinese"
   link: "http://coffee-script.org"
@@ -47,6 +47,9 @@ exports.sites = [
 ,
   name: "Jade Reference"
   link: "http://jade-lang.com/reference/"
+,
+  name: "Jade Reference Chinese"
+  link: "http://expressjs.jser.us/jade.html"
 ,
   name: "SeaJS Issues"
   link: "http://jiyinyiyong.github.io/seajs-issues/"
@@ -143,4 +146,37 @@ exports.sites = [
 ,
   name: 'CSS Beautify'
   link: 'http://cssbeautify.com/'
+,
+  name: 'Meteor 0.6.3.1 Chinese'
+  link: 'http://d0cs.meteor.com/'
+,
+  name: 'BootStrap Chinese'
+  link: 'http://www.bootcss.com/'
+,
+  name: 'jQuery API 1.x Chinese'
+  link: 'http://www.css88.com/jqapi-1.9/'
+,
+  name: 'Zepto 1.0 Chinese'
+  link: 'http://mweb.baidu.com/zeptoapi/'
+,
+  name: 'RequireJS 2.0 Chinese'
+  link: 'http://makingmobile.org/docs/tools/requirejs-api-zh/'
+,
+  name: 'Emmet Chinese'
+  link: 'http://yanxyz.github.io/emmet-docs/'
+,
+  name: 'PHP the right way Chinese'
+  link: 'http://wulijun.github.io/php-the-right-way/'
+,
+  name: 'Little book CoffeeScript Chinese'
+  link: 'http://island205.github.io/tlboc/'
+,
+  name: 'Koa.js Chinese'
+  link: 'http://koa.rednode.cn/'
+,
+  name: 'Underscore.js 1.5.2 Chinese'
+  link: 'http://www.css88.com/doc/underscore/'
+,
+  name: 'Expressjs 3.x API Chinese'
+  link: 'http://expressjs.jser.us/3x_zh-cn/api.html'
 ]
